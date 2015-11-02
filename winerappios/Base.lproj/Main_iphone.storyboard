@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="jgd-Lh-xZR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="k1v-CJ-GAx">
+            <objects>
+                <viewController id="jgd-Lh-xZR" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g0j-mM-GPf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg.png" id="xZ2-UV-YhV">
+                                <rect key="frame" x="0.0" y="1" width="320" height="567"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar-bg.png" id="0Sl-dE-JQS">
+                                <rect key="frame" x="0.0" y="489" width="320" height="79"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LXx-um-OQX">
+                                <rect key="frame" x="2" y="500.00000043992407" width="57" height="57"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <state key="normal" image="ico-01-normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ico-01-f.png"/>
+                                <state key="highlighted" image="ico-01-f"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="jgd-Lh-xZR" eventType="touchUpInside" id="A8X-Ra-Wh2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CB2-cl-IlV">
+                                <rect key="frame" x="67" y="500.00000043992401" width="57" height="57"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <state key="normal" image="ico-02-normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ico-02-f.png"/>
+                                <state key="highlighted" image="ico-02-f"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="jgd-Lh-xZR" eventType="touchUpInside" id="uqa-ct-vVO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vJZ-fl-TeD">
+                                <rect key="frame" x="132" y="500.00000043992401" width="57" height="57"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <state key="normal" image="ico-3-normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ico-3-f.png"/>
+                                <state key="highlighted" image="ico-3-f"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="jgd-Lh-xZR" eventType="touchUpInside" id="Tg8-KY-y3q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LeF-4h-k0W">
+                                <rect key="frame" x="197" y="500.00000043992401" width="57" height="57"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <state key="normal" image="ico-04-normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ico-04-f.png"/>
+                                <state key="highlighted" image="ico-04-f"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="jgd-Lh-xZR" eventType="touchUpInside" id="319-Ke-cuv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7tK-4c-6LJ">
+                                <rect key="frame" x="263" y="500.00000043992401" width="57" height="57"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <state key="normal" image="ico-05-normal.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ico-05-f.png"/>
+                                <state key="highlighted" image="ico-05-f"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="jgd-Lh-xZR" eventType="touchUpInside" id="H2I-ir-TeF"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="r02.png" id="TWI-z3-UCg">
+                                <rect key="frame" x="25" y="103" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico-r.png" id="m1L-lO-Kcd">
+                                <rect key="frame" x="178" y="108" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico-light-05.png" id="DJR-Kj-vFC">
+                                <rect key="frame" x="242" y="106" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="number0.png" id="usI-st-XMN">
+                                <rect key="frame" x="28" y="206" width="43" height="69"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="number0.png" id="uEG-nQ-Vvm">
+                                <rect key="frame" x="28" y="304" width="43" height="69"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar-bg.png" id="oAq-ML-Tzd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch winder" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="75m-RW-Wye">
+                                <rect key="frame" x="65" y="10" width="108" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon1.png" id="fxz-sA-Rsi">
+                                <rect key="frame" x="21" y="8" width="32" height="36"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="l02.png" id="exK-Db-Ejp">
+                                <rect key="frame" x="81" y="103" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MFA-K8-W5M">
+                                <rect key="frame" x="251" y="15" width="38" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="exit"/>
+                                <connections>
+                                    <action selector="exitAction:" destination="jgd-Lh-xZR" eventType="touchUpInside" id="awP-Ow-hW2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HHl-Is-Nxw"/>
+                    <connections>
+                        <outlet property="imgCurMoto" destination="usI-st-XMN" id="OPL-8b-oZM"/>
+                        <outlet property="imgCurTPD" destination="uEG-nQ-Vvm" id="xKz-z6-b8d"/>
+                        <outlet property="imgLightStatus" destination="DJR-Kj-vFC" id="g3o-HU-qpc"/>
+                        <outlet property="imgLightSwitch" destination="m1L-lO-Kcd" id="nHJ-ma-b2g"/>
+                        <outlet property="imgTurnBack" destination="exK-Db-Ejp" id="zhf-af-a4i"/>
+                        <outlet property="imgTurnForward" destination="TWI-z3-UCg" id="Wg7-KG-7tG"/>
+                        <outlet property="motoBtn" destination="vJZ-fl-TeD" id="HM5-GQ-NLv"/>
+                        <outlet property="powerBtn" destination="LXx-um-OQX" id="odH-uc-e2I"/>
+                        <outlet property="switchBtn" destination="CB2-cl-IlV" id="YRY-hJ-AvM"/>
+                        <outlet property="tpdBtn" destination="7tK-4c-6LJ" id="ozj-oB-egl"/>
+                        <outlet property="turnBtn" destination="LeF-4h-k0W" id="cFv-8H-Fus"/>
+                        <segue destination="ZzU-5i-gsp" kind="modal" identifier="getPeripheralsID" id="r7L-BC-ehu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tDe-tB-UzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="432" y="202"/>
+        </scene>
+        <!--Peripherals Table View Controller-->
+        <scene sceneID="H2g-Wy-xqT">
+            <objects>
+                <tableViewController storyboardIdentifier="two" id="ZzU-5i-gsp" customClass="PeripheralsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="87" sectionHeaderHeight="22" sectionFooterHeight="22" id="hAh-zS-UXN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="87" id="1Gz-Ix-53t">
+                                <rect key="frame" x="0.0" y="22" width="320" height="87"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Gz-Ix-53t" id="jb7-KT-knS">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZzU-5i-gsp" id="C9N-Py-sSb"/>
+                            <outlet property="delegate" destination="ZzU-5i-gsp" id="hAp-VK-I85"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Xtn-Yb-P0v"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nYf-hi-T71" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bar-bg.png" width="42" height="179"/>
+        <image name="ico-01-f" width="72" height="57"/>
+        <image name="ico-01-f.png" width="216" height="173"/>
+        <image name="ico-01-normal.png" width="216" height="173"/>
+        <image name="ico-02-f" width="72" height="57"/>
+        <image name="ico-02-f.png" width="216" height="173"/>
+        <image name="ico-02-normal.png" width="216" height="173"/>
+        <image name="ico-04-f" width="72" height="57"/>
+        <image name="ico-04-f.png" width="216" height="173"/>
+        <image name="ico-04-normal.png" width="216" height="173"/>
+        <image name="ico-05-f" width="72" height="57"/>
+        <image name="ico-05-f.png" width="216" height="173"/>
+        <image name="ico-05-normal.png" width="216" height="173"/>
+        <image name="ico-3-f" width="48" height="40"/>
+        <image name="ico-3-f.png" width="144" height="121"/>
+        <image name="ico-3-normal.png" width="216" height="173"/>
+        <image name="ico-light-05.png" width="153" height="107"/>
+        <image name="ico-r.png" width="164" height="111"/>
+        <image name="icon1.png" width="46" height="46"/>
+        <image name="l02.png" width="152" height="152"/>
+        <image name="main_bg.png" width="720" height="1280"/>
+        <image name="number0.png" width="124" height="206"/>
+        <image name="r02.png" width="151" height="152"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
